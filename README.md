@@ -1,4 +1,4 @@
-# AWS SDK for Python SES Emailer
+# AWS SDK for Python: A simple SES emailer script for send_email()
 
 A simple Python application illustrating usage of the AWS SDK for Python (also
 referred to as `boto3`).
@@ -34,8 +34,8 @@ This sample application sends a simple email from one verified address to anothe
 All you need to do is update the `ses.py` file for the correct email addresses, and make sure your ~/.aws/credentials file has the 
 correct access keys (note my access keys are not included in this repo)
 
-    `$PROJECT_ROOT/source venv/bin/activate
-    python ses.py`
+    $PROJECT_ROOT/source venv/bin/activate
+    python ses.py
 
 You need to make sure the credentials you're using have the correct permissions to access the Amazon SES
 service. If you run into 'Access Denied' errors while running this sample, please follow the steps below.
